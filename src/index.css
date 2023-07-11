@@ -28,6 +28,17 @@ body {
   min-height: 100vh;
 
 }
+
+.left-point {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0)
+}
+.custom-blur{
+  backdrop-filter: blur(20px);
+}
+
+.dragon {
+  background-image: url("../src/assets/background_dragon.png");
+}
 /* a {
   font-weight: 500;
   color: #646cff;

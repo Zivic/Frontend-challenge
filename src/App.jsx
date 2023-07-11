@@ -4,8 +4,8 @@ import Sidebar from "./components/layout/Sidebar";
 function App() {
   return (
     <>
-      <div className=" flex h-screen w-full bg-gradient-to-r from-sidebar-gradient-start/75 to-sidebar-gradient-end/75 ">
-        <div className=" box-border w-8/12 h-full object-cover object-center dragon bg-cover"
+      <div className=" flex h-screen w-full bg-sidebar-gradient-end ">
+        <div className=" box-border w-full md:w-9/12 lg:w-10/12 h-full object-cover object-center dragon bg-contain bg-no-repeat"
 >
           
         </div>

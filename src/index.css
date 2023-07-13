@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 #root {
-  width:100vw;
-  height:100vh;
+  width: 100vw;
+  height: 100vh;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -26,18 +26,17 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-
 }
 
-p{
+p {
   color: gray;
-  font-size:small;
+  font-size: small;
 }
 
 .left-point {
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0)
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0);
 }
-.custom-blur{
+.custom-blur {
   backdrop-filter: blur(20px);
 }
 
@@ -45,9 +44,26 @@ p{
   background-image: url("../src/assets/background_dragon.png");
 }
 
-.custom-shadow{
+.custom-shadow {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
+
+.custom-border {
+  border-width: 0.1em;
+  border-style: solid;
+  border-radius: 24px;
+  border-image: 
+    linear-gradient(
+      to right, 
+      rgba(0, 0, 0, 0),
+      #3342FF 30%,
+      #37f4f4 50%, 
+      #3342FF 80%,
+      rgba(0, 0, 0, 0.0)
+    )  100% 0 0;
+
+}
+
 /* a {
   font-weight: 500;
   color: #646cff;

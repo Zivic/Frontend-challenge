@@ -6,8 +6,9 @@ export default {
   ],  theme: {
     extend: {
       colors:{
-        'sidebar-gradient-start': '#313a5b',
-        'sidebar-gradient-end': '#242247'
+        'sidebar-gradient-start': '#1B3351',
+        'sidebar-gradient-end': '#240621',
+        'card-gradient-end': '#120718',
       }
     },
   },

@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className=" flex h-screen w-full bg-sidebar-gradient-end ">
-        <div className=" box-border w-full md:w-9/12 lg:w-10/12 h-full object-cover object-center dragon bg-contain bg-no-repeat"
+        <div className=" box-border w-full md:w-9/12 lg:w-10/12 h-full object-cover object-center dragon custom-bg-size bg-no-repeat"
 >
           
         </div>

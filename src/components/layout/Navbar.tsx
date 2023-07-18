@@ -12,6 +12,11 @@ const Navbar = () => {
             <button>Pricing</button>
             <button>Sign up</button>
         </div>
+        <div className="absolute left-0 flex flex-row p-10 pl-20 gap-4">
+            <img src="/src/assets/Logo.png" alt="Logo.png"></img>
+                <img src="/src/assets/Serendipity.svg" alt="Serendipity.svg"></img>
+
+            </div>
         </>
     )
 }

@@ -38,6 +38,18 @@ p {
 .left-point {
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0);
 }
+
+/* .left-point::before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  height: inherit;
+  width: inherit;
+  background-color: #37f4f4;
+  clip-path: inherit;
+} */
 .custom-blur {
   backdrop-filter: blur(20px);
 }
@@ -64,7 +76,21 @@ p {
     )
     100% 0 0;
 }
-@media (min-width:600px) {
+
+.custom-border-2 {
+  border-width: 0 0 0 0.1em;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) 0
+    10 0;
+}
+
+.custom-border-3 {
+  border-width: 0 0 0.1em 0.1em;
+  border-style: solid;
+  border-image: linear-gradient(to right, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) 
+  0 10 10;
+}
+@media (min-width: 600px) {
   .custom-bg-size {
     background-size: auto 100%;
     min-height: 100%;

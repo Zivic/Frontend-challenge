@@ -1,5 +1,6 @@
 import React from "react";
 import NewsCard from "./NewsCard";
+import Notification from "./Notification";
 const Sidebar = () => {
   return <>
     <div className="absolute right-0 box-border m-0  w-5/12 h-full  z-10 p-16
@@ -34,6 +35,20 @@ const Sidebar = () => {
             We have added and  image filter detector that works similarly to the image prompt filter.
           </li>
         </ul>
+        <Notification>
+          <h2 className="text-white text-xl mb-5">Serendipity Web Design</h2>
+          <p className="text-gray-400 text-xs list-disc ml-4">
+            Each design will teach different techniques for mobile and web and will have both the User Interface lesson and the Prototyping lesson. Get editable design files for all...
+          </p>
+          <div className="flex flex-row items-center mt-5 gap-1">
+          <img src="/src/assets/react.svg" alt="react.svg" />
+
+          <h3 className=" text-white text-md ">Taught by George Z.</h3>
+
+          </div>
+
+
+        </Notification>
       </NewsCard>
       <NewsCard>
       <h2 className="text-white text-xl mb-5">Feature</h2>

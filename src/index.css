@@ -31,10 +31,13 @@ body {
 }
 
 p {
-  color: gray;
+  color: rgb(170, 170, 170);
   font-size: small;
 }
 
+h2 {
+  color:white;
+}
 .left-point {
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0);
 }

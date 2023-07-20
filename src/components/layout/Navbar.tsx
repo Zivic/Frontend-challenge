@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <div
         className="flex left-point absolute right-0 z-20 w-7/12 h-16  bg-gradient-to-r from-sidebar-gradient-start to-sidebar-gradient-end
-         justify-end px-10 gap-10 text-white custom-border-3
+         justify-end px-10 gap-10 text-white custom-border-navbar
         "
       >
         <button>Home</button>

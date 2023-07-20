@@ -6,7 +6,7 @@ const Notification = (props) => {
     <div>
       <div
         className=" p-6 mt-6 w-3/4 rounded-2xl
-      custom-border-4
+      custom-border-notification
     "
       >
         {props.children}

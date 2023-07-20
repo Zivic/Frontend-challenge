@@ -3,9 +3,9 @@ import NewsCard from "./NewsCard";
 import Notification from "./Notification";
 const Sidebar = () => {
   return <>
-    <div className="absolute right-0 box-border m-0  w-5/12  z-10 p-16
+    <div className="absolute right-0 box-border m-0  w-5/12 h-full  z-10 p-16
     bg-gradient-to-r from-sidebar-gradient-start/75 from-20% to-sidebar-gradient-end/75 backdrop-blur-2xl
-    custom-border-2
+    custom-border-sidebar
     ">
       <h1 className=" mt-20 text-white text-3xl">Updates</h1>
       <p className=" mt-10 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sed ut tenetur, voluptates minima facilis veniam libero suscipit facere optio sint corrupti iure harum aliquam quasi aspernatur illo! Aliquid, enim.</p>

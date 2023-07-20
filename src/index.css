@@ -106,11 +106,9 @@ p {
 }
 
 .custom-border-4{
-  border-width: 0.1em  0.1em 0 0.1em;
-  border-style: solid;
-  border-image: linear-gradient(to bottom, #2e3a64 0%, rgba(0, 0, 0, 0) 60%)   10 10 
-    10;
-
+  border: 0.1em solid #0000;
+  background: linear-gradient(to bottom , #1d253f 20%, rgba(0, 0, 0, 0) 100%) padding-box,
+  linear-gradient(to bottom, #3b4b82 0%, rgba(0, 0, 0, 0) 60%) border-box;
 }
 
 @media (min-width: 600px) {

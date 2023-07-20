@@ -3,7 +3,7 @@ import NewsCard from "./NewsCard";
 import Notification from "./Notification";
 const Sidebar = () => {
   return <>
-    <div className="absolute right-0 box-border m-0  w-5/12 h-full  z-10 p-16
+    <div className="absolute right-0 box-border m-0  w-5/12  z-10 p-16
     bg-gradient-to-r from-sidebar-gradient-start/75 from-20% to-sidebar-gradient-end/75 backdrop-blur-2xl
     custom-border-2
     ">

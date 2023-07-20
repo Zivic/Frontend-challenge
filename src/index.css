@@ -107,15 +107,19 @@ p {
 .custom-border-sidebar {
   border-width: 0 0 0 0.1em;
   border-style: solid;
-  border-image: linear-gradient(to bottom, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) 0
+  border-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 8%, #37f4f4 25%, rgba(0, 0, 0, 0) 60%) 0
     10 0;
 }
 
 .custom-border-navbar {
-  border-width: 0 0 0.1em 0.1em;
-  border-style: solid;
-  border-image: linear-gradient(to right, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) 0 10
-    10;
+  border: 0 0 0.1em 0.1em solid #0000;
+  background: 
+  linear-gradient(
+    to right,
+    #1b3351a2,
+    #240621
+  ) padding-box,
+  linear-gradient(to right, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) border-box;
 }
 
 @media (min-width: 600px) {

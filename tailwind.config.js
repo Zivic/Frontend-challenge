@@ -9,6 +9,7 @@ export default {
         'sidebar-gradient-start': '#1B3351',
         'sidebar-gradient-end': '#240621',
         'card-gradient-end': '#120718',
+        'notification-gradient-start': '#1d253f',
       }
     },
   },

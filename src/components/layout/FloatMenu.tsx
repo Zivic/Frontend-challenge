@@ -3,7 +3,7 @@ import FloatItem from "./FloatItem";
 const FloatMenu = () => {
   return (
     <>
-      <div className="fixed bottom-0 left-0  rounded-xl custom-border-notification">
+      <div className="fixed bottom-0 left-0 pr-10 rounded-r-3xl  custom-border-notification">
         <FloatItem imgsrc="/src/assets/book.svg">
           <h2>Explore</h2>
           <p>Explore the Serenity community's favorite images.</p>

@@ -1,6 +1,7 @@
 
 import Navbar from "./components/layout/Navbar";
 import Sidebar from "./components/layout/Sidebar";
+import FloatMenu from "./components/layout/FloatMenu";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         /> */}
         <Navbar />
         <Sidebar />
+        <FloatMenu />
       </div>
     </>
   );

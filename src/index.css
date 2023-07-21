@@ -31,10 +31,18 @@ body {
 }
 
 p {
-  color: gray;
+  color: rgb(170, 170, 170);
   font-size: small;
 }
 
+h2 {
+  color: white;
+  font-weight: 500;
+}
+h3 {
+  color: white;
+  font-weight: 500;
+}
 .left-point {
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0);
 }
@@ -75,6 +83,22 @@ p {
     );
 }
 
+.custom-button-explore {
+  border: 0.2em solid #0000;
+  border-radius: 10px;
+  background: linear-gradient(
+        to bottom,
+        #22243f,
+        #272b48 49%,
+        rgba(0, 0, 0, 0) 50%
+      )
+      padding-box,
+    linear-gradient(to bottom, #21253d 51%, #272e49 100%) padding-box,
+    linear-gradient(to bottom, #404477, #292e4b 49%, rgba(0, 0, 0, 0) 50%)
+      border-box,
+    linear-gradient(to bottom, #1c1d34 51%, #1c2133 100%) border-box;
+}
+
 .custom-border-newscard {
   border: 0.1em solid #0000;
   border-radius: 0 24px 24px 0;
@@ -107,19 +131,19 @@ p {
 .custom-border-sidebar {
   border-width: 0 0 0 0.1em;
   border-style: solid;
-  border-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 8%, #37f4f4 25%, rgba(0, 0, 0, 0) 60%) 0
-    10 0;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 8%,
+      #37f4f4 25%,
+      rgba(0, 0, 0, 0) 60%
+    )
+    0 10 0;
 }
 
 .custom-border-navbar {
   border: 0 0 0.1em 0.1em solid #0000;
-  background: 
-  linear-gradient(
-    to right,
-    #1b3351a2,
-    #240621
-  ) padding-box,
-  linear-gradient(to right, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) border-box;
+  background: linear-gradient(to right, #1b3351a2, #240621) padding-box,
+    linear-gradient(to right, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) border-box;
 }
 
 @media (min-width: 600px) {

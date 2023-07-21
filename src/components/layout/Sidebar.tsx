@@ -20,7 +20,7 @@ const Sidebar = () => {
           updates today and take your experience to the next level!
         </p>
         <div className="">
-          <div className="absolute w-1 h-2/3 lines "></div>
+          <div className="absolute w-1 h-5/6 lines "></div>
 
           <div className="">
             <NewsCard imgsrc="/src/assets/box.png">

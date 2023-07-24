@@ -43,21 +43,7 @@ h3 {
   color: white;
   font-weight: 500;
 }
-.left-point {
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0);
-}
 
-/* .left-point::before {
-  content: "";
-  display: block;
-  position: relative;
-  top: 5px;
-  left: 5px;
-  height: inherit;
-  width: inherit;
-  background-color: #37f4f4;
-  clip-path: inherit;
-} */
 .custom-blur {
   backdrop-filter: blur(20px);
 }
@@ -145,11 +131,15 @@ h3 {
   background: linear-gradient(to right, #1b3351a2, #240621) padding-box,
     linear-gradient(to right, #37f4f4 0%, rgba(0, 0, 0, 0) 60%) border-box;
 }
+.custom-bg-size {
+  background-size: auto 100%;
+  min-height: 100%;
+}
 
-@media (min-width: 600px) {
-  .custom-bg-size {
-    background-size: auto 100%;
-    min-height: 100%;
+/* tailwind md */
+@media (min-width: 768px) {
+  .left-point {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 10% 100%, 0 0);
   }
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 const useViewport = () => {
   const [width, setWidth] = React.useState(window.innerWidth);
-  const [isSmallScreen, setIsSmallScreen] = React.useState(false);
+  const [isSmallScreen, setIsSmallScreen] = React.useState(window.innerWidth < 768);
   React.useEffect(() => {
     const handleWindowResize = () => {
       setWidth(window.innerWidth);

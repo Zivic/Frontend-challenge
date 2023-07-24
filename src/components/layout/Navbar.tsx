@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import useViewport from "../../hooks/useViewport";
-const Navbar = () => {
-  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+const Navbar = (props) => {
+  const {isNavbarOpen, setIsNavbarOpen} = props;
   const { width, isSmallScreen } = useViewport();
   console.log("Small screen: ", isSmallScreen);
   return (
@@ -46,18 +46,22 @@ const Navbar = () => {
         >
           <>
             {isSmallScreen && (
+              <div className="flex align-middle justify-center">
               <button
                 className="navbar-button w-8 h-8 "
                 onClick={() => setIsNavbarOpen(!isNavbarOpen)}
               ></button>
+              </div>
+
             )}
             <button>Home</button>
             <button>Browse</button>
             <button>Updates</button>
             <button>Pricing</button>
-            <button className="custom-button rounded-lg px-10 my-4">
+            <button className="custom-button rounded-lg mx-10 my-2 px-4 py-1">
               Sign up
             </button>
+
           </>
         </nav>
       )}

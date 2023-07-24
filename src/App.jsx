@@ -13,7 +13,7 @@ function App() {
         <div className=" box-border w-full md:w-9/12 lg:w-10/12 h-full object-cover object-center dragon custom-bg-size bg-no-repeat">
           {isSmallScreen && !isSidebarOpen && (
             <button
-              className="relative top-1/2 left-1/3 z-30 custom-button rounded-xl p-4 text-white font-medium"
+              className="relative top-3/4 left-1/3 z-30 custom-button rounded-xl p-4 text-white font-medium"
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
             >
               See updates

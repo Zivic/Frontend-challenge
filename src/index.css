@@ -72,6 +72,9 @@ h3 {
 .close-button{
 background-image: url("/src/assets/arrow.png");
 }
+.navbar-button{
+  background-image: url("/src/assets/bars-solid.svg");
+}
 
 .custom-button-explore {
   border: 0.2em solid #0000;

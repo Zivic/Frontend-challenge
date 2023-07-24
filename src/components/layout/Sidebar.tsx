@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className="absolute md:fixed md:right-0 md:top-0 md:bottom-0 md:overflow-y-scroll box-border m-0  md:w-5/12 md:h-full 
+        className="fixed  max-h-screen md:fixed md:right-0 md:top-0 md:bottom-0 md:overflow-y-scroll box-border m-0  md:w-5/12 md:h-full 
          h-auto z-10 p-16 overflow-y-auto
     bg-gradient-to-r from-sidebar-gradient-start/75 from-20% to-sidebar-gradient-end/75 backdrop-blur-2xl
     custom-border-sidebar

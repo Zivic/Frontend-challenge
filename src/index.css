@@ -69,6 +69,10 @@ h3 {
     );
 }
 
+.close-button{
+background-image: url("/src/assets/arrow.png");
+}
+
 .custom-button-explore {
   border: 0.2em solid #0000;
   border-radius: 10px;

@@ -3,9 +3,9 @@
 ![Big screen](docs/images/serendipity3.png)
 
 <div>
-  <img src="docs/images/serendipity_mobile_1.png" width="33%">
-  <img src="docs/images/serendipity_mobile_2.png" width="33%">
-  <img src="docs/images/serendipity_mobile_3.png" width="33%">
+  <img src="docs/images/serendipity_mobile_1.png" width="32%">
+  <img src="docs/images/serendipity_mobile_2.png" width="32%">
+  <img src="docs/images/serendipity_mobile_3.png" width="32%">
 </div>
 
 ## Overview

@@ -2,10 +2,11 @@
 
 ![Big screen](docs/images/serendipity3.png)
 
-![Mobile](docs/images/serendipity_mobile_1.png)
-![Mobile](docs/images/serendipity_mobile_2.png)
-![Mobile](docs/images/serendipity_mobile_3.png)
-
+<div>
+  <img src="docs/images/serendipity_mobile_1.png" width="33%">
+  <img src="docs/images/serendipity_mobile_2.png" width="33%">
+  <img src="docs/images/serendipity_mobile_3.png" width="33%">
+</div>
 
 ## Overview
 
@@ -13,7 +14,7 @@ This repository contains my solution for a frontend challenge where I decided to
 
 ## Table of Contents
 
-- [Frontend Challenge - Serendipity](#frontend-challenge-serendipity)
+- [Frontend Challenge - Serendipity](#frontend-challenge---serendipity)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Design Inspiration](#design-inspiration)

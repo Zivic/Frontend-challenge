@@ -30,7 +30,7 @@ This repository contains my solution for a frontend challenge where I decided to
 
 The project began with stumbling upon a visually stunning Figma design, which instantly captivated my attention. The intricate details and creative layout motivated me to take on the challenge of turning this static design into a fully functional web page.
 
-![Figma Design by Sourasith](https://www.figma.com/community/file/1247548360630672682)
+[Figma Design by Sourasith](https://www.figma.com/community/file/1247548360630672682)
 
 ## Technologies Used
 
@@ -83,6 +83,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-I would like to express my gratitude to ![Sourasith](https://www.figma.com/@sourasithp), the creator of the Figma design that served as the inspiration for this project. Additionally, I appreciate the supportive developer community for their valuable insights and resources.
+I would like to express my gratitude to [Sourasith](https://www.figma.com/@sourasithp), the creator of the Figma design that served as the inspiration for this project. Additionally, I appreciate the supportive developer community for their valuable insights and resources.
 
 Thank you for exploring my Frontend Challenge! If you have any questions or feedback, feel free to reach out. Happy coding!
